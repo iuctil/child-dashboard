@@ -9,7 +9,7 @@
     textposition: 'top',
     type: 'scatter',
   }], {
-    margin: { t: 0, b:40 },
+    margin: { t: 0 },
     showlegend: false,
     yaxis: {
       rangemode: 'tozero',
@@ -19,6 +19,9 @@
       },
       */
       ticksuffix: " {{ $.Page.Params.plot.unit }}",
-    }
+    },
+    xaxis: {
+      tickangle: -45,
+    },
   });
 </script>
