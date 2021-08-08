@@ -6,10 +6,11 @@ draft: false
 menu:
   dashboard:
     parent: risks
-weight: 100
+weight: 110
 toc: true
 status: gray
 plot:
+  unit: days
   dates:
     - Q1 2020
     - Q2 2020

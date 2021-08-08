@@ -1,13 +1,13 @@
 ---
-title: "Adults Trained in Child Protection"
-description: "Quarterly change in adults trained child abuse prevention."
+title: "In-School Suspension"
+description: "Percent change in students receiving In-School Detention in all school districts in Elkhart County."
 lead: ""
 date: 2020-11-12T13:26:54+01:00
 lastmod: 2020-11-12T13:26:54+01:00
 draft: false
 menu:
   dashboard:
-    parent: protective
+    parent: risks
 weight: 100
 status: red
 toc: true
@@ -30,3 +30,5 @@ plot:
 ## Data
 
 {{< plot >}}
+
+TODO..

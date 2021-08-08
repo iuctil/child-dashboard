@@ -1,16 +1,14 @@
 ---
-title: "Adults Trained in Child Protection"
-description: "Quarterly change in adults trained child abuse prevention."
-lead: ""
+title: "School Expulsions"
+description: "Change in number of students receiving expulsion per 1000 students in Elkhart County."
 date: 2020-11-12T13:26:54+01:00
-lastmod: 2020-11-12T13:26:54+01:00
 draft: false
 menu:
   dashboard:
-    parent: protective
-weight: 100
-status: red
+    parent: risks
+weight: 150
 toc: true
+status: red
 plot:
   unit: "%"
   dates:
@@ -30,3 +28,5 @@ plot:
 ## Data
 
 {{< plot >}}
+
+TODO - add other info

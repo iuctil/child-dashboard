@@ -9,10 +9,16 @@
     textposition: 'top',
     type: 'scatter',
   }], {
-    margin: { t: 0, b:20 },
+    margin: { t: 0, b:40 },
     showlegend: false,
     yaxis: {
       rangemode: 'tozero',
+      /*
+      title: {
+        text: "{{ $.Page.Params.plot.unit }}",
+      },
+      */
+      ticksuffix: " {{ $.Page.Params.plot.unit }}",
     }
   });
 </script>

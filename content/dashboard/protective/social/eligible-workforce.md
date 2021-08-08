@@ -1,6 +1,6 @@
 ---
 title: "Eligible Workforce"
-description: "Percentage of mothers screening positive for depression at Healthy Families Intake."
+description: "Percent change in total persons classified as employed or unemployed."
 date: 2020-11-12T13:26:54+01:00
 draft: false
 menu:
@@ -45,3 +45,4 @@ CAPS aims to support families to ensure that every child lives a life free from 
 | Goal | The goal is to observe fewer cases. |
 | Traffic Light |  **Green:** at least 1 person less<br>**Gray:** within +/- 1 person<br>   **Red:** more than 1 person more |
 | Supporting Information | <https://cdc.gov/reproductivehealth/depression/index.htm> |
+

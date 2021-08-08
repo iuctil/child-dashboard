@@ -1,13 +1,16 @@
 h1 {
   font-size: 190%;
+  color: #555;
 }
 
 h2 {
   font-size: 150%;
+  color: #444;
 }
 
 h3 {
   font-size: 140%;
+  color: #333;
 }
 
 h4 {
@@ -50,26 +53,6 @@ h5 {
 
 .navbar-brand {
   text-transform: uppercase;
-}
-
-.footer {
-  background-color: $primary;
-  color: white;
-  padding: 70px 0;
-  padding-top: 40px;
-
-  h5 {
-    margin-top: 30px;
-    text-transform: uppercase;
-  }
-  ul.plain {
-    list-style: none;
-    padding-left: 0;
-  }
-
-  a, a:hover {
-    color: white;
-  }
 }
 
 .cards {
@@ -153,6 +136,7 @@ h5 {
 
 table {
   background-color: #ddd;
+  font-size: 90%;
 
   thead {
     background-color: #aaa;
@@ -162,15 +146,65 @@ table {
   }
 
   th {
-    border: none;
   }
   td {
-    border-color: #fff5;
+    border-color: #fff4;
   }
   td:first-child {
     font-family: $headings-font-family;
     font-weight: bold;
     background-color: $primary;
+    color: white;
+  }
+}
+
+.dashboard-status {
+  display: inline-block;
+
+  position: relative;
+  top: -2px;
+
+  text-transform: uppercase;
+  font-weight: bold;
+
+  background-color: gray;
+  color: white;
+  border-radius: 5px;
+  padding: 2px 4px;
+  font-size: 60%;
+
+  &.dashboard-status-red {
+    background-color: #bd2130;
+  }
+  &.dashboard-status-green {
+    background-color: #28a745;
+  }
+}
+
+h1 .dashboard-status {
+  border-radius: 5px;
+  padding: 5px 10px;
+  top: -5px;
+}
+
+
+.footer {
+  background-color: $primary;
+  color: white;
+  padding: 70px 0;
+  padding-top: 40px;
+  margin-top: 50px;
+
+  h5 {
+    margin-top: 30px;
+    text-transform: uppercase;
+  }
+  ul.plain {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  a, a:hover {
     color: white;
   }
 }

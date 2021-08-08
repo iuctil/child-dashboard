@@ -1,6 +1,6 @@
 ---
-title: "Adults Trained in Child Protection"
-description: "Quarterly change in adults trained child abuse prevention."
+title: "Parenting Training"
+description: "Percent change in number of parents enrolled in Triple P."
 lead: ""
 date: 2020-11-12T13:26:54+01:00
 lastmod: 2020-11-12T13:26:54+01:00
@@ -8,8 +8,8 @@ draft: false
 menu:
   dashboard:
     parent: protective
-weight: 100
-status: red
+weight: 120
+status: green
 toc: true
 plot:
   unit: "%"

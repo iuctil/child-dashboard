@@ -1,16 +1,14 @@
 ---
-title: "Adults Trained in Child Protection"
-description: "Quarterly change in adults trained child abuse prevention."
-lead: ""
+title: "High School Graduation Rate"
+description: "High school graduation rate of students graduating within 4 years."
 date: 2020-11-12T13:26:54+01:00
-lastmod: 2020-11-12T13:26:54+01:00
 draft: false
 menu:
   dashboard:
     parent: protective
 weight: 100
-status: red
 toc: true
+status: green
 plot:
   unit: "%"
   dates:

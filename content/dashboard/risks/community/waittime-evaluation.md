@@ -1,14 +1,14 @@
 ---
-title: "Adults Trained in Child Protection"
-description: "Quarterly change in adults trained child abuse prevention."
+title: "Wait Time for Mental Health Evaluation"
+description: "Average number of days from calling to scheduling date of intake assessment at Oaklawn for routine referrals."
 lead: ""
 date: 2020-11-12T13:26:54+01:00
 lastmod: 2020-11-12T13:26:54+01:00
 draft: false
 menu:
   dashboard:
-    parent: protective
-weight: 100
+    parent: risks
+weight: 190
 status: red
 toc: true
 plot:
@@ -30,3 +30,5 @@ plot:
 ## Data
 
 {{< plot >}}
+
+TODO..

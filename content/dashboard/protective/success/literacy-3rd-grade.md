@@ -1,16 +1,14 @@
 ---
-title: "Adults Trained in Child Protection"
-description: "Quarterly change in adults trained child abuse prevention."
-lead: ""
+title: "Literacy Rate in 3rd Grade"
+description: "Percentage of students passing 3rd grade IREAD assessment."
 date: 2020-11-12T13:26:54+01:00
-lastmod: 2020-11-12T13:26:54+01:00
 draft: false
 menu:
   dashboard:
     parent: protective
-weight: 100
-status: red
+weight: 110
 toc: true
+status: red
 plot:
   unit: "%"
   dates:

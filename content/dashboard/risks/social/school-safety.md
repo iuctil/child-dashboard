@@ -1,14 +1,14 @@
 ---
-title: "Adults Trained in Child Protection"
-description: "Quarterly change in adults trained child abuse prevention."
+title: "School Safety and Discipline Incidents"
+description: "Percent change in Disciplinary Reports involving suspensions, expulsions, and bullying incidents."
 lead: ""
 date: 2020-11-12T13:26:54+01:00
 lastmod: 2020-11-12T13:26:54+01:00
 draft: false
 menu:
   dashboard:
-    parent: protective
-weight: 100
+    parent: risks
+weight: 150
 status: red
 toc: true
 plot:
@@ -30,3 +30,5 @@ plot:
 ## Data
 
 {{< plot >}}
+
+TODO..

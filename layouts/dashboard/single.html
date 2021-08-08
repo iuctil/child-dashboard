@@ -4,6 +4,9 @@
       <nav class="docs-links" aria-label="Main navigation">
         {{ partial "sidebar/dashboard-menu.html" . }}
       </nav>
+      <br>
+      <br>
+      <br>
     </div>
     {{ if ne .Params.toc false -}}
     <nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
@@ -24,7 +27,16 @@
           </ol>
         </nav>
       {{ end }}
-      <h1>{{ .Title }}</h1>
+      <h4 class="text-muted">
+        {{ with .Site.GetPage .Dir }}{{ .Title }}{{ end }}
+      </h4>
+      <h1 style="margin-top:10px">
+
+        {{ .Title }}
+        {{ if isset .Params "status" }}
+          <span class="dashboard-status dashboard-status-{{ .Params.status}}">{{ .Params.status }}</span>
+        {{ end }}
+      </h1>
       <small class="text-muted">{{ .PublishDate.Format "January 2, 2006" }}</small>
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
       {{ partial "main/headline-hash.html" .Content }}

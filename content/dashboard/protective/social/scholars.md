@@ -9,8 +9,26 @@ menu:
   dashboard:
     parent: protective
 weight: 110
-status: red
+status: gray
 toc: true
+plot:
+  unit: "%"
+  dates:
+    - Q1 2020
+    - Q2 2020
+    - Q3 2020
+    - Q4 2020
+    - Q1 2021
+  values:
+    - 11.1
+    - 22.2
+    - 33.3
+    - 44.4
+    - 55.5
 ---
 
-I am in scholars.md
+## Data
+
+{{< plot >}}
+
+TODO...

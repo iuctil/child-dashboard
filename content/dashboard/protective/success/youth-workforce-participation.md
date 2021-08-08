@@ -1,16 +1,14 @@
 ---
-title: "Adults Trained in Child Protection"
-description: "Quarterly change in adults trained child abuse prevention."
-lead: ""
+title: "Youth Workforce Participation"
+description: "Yearly percent change in youth employment."
 date: 2020-11-12T13:26:54+01:00
-lastmod: 2020-11-12T13:26:54+01:00
 draft: false
 menu:
   dashboard:
     parent: protective
-weight: 100
-status: red
+weight: 130
 toc: true
+status: green
 plot:
   unit: "%"
   dates:

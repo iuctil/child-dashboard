@@ -24,6 +24,20 @@
   </ul>
 {{ else -}}
   {{ $currentPage := . -}}
+
+  <h3>Dashboards</h3>
+
+  <!--list dashboard links-->
+  <ul class="list-unstyled">
+    {{ range .Site.Pages -}}
+      {{ if or (eq .URL "/dashboard/protective/") (eq .URL "/dashboard/risks/") }}
+        {{- $active := eq .URL $currentPage.URL -}}
+        <li><a class="docs-link{{ if $active }} active{{ end }}" href="{{ .URL | relURL }}">{{ .Title }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+
+  <!-- list all metrics page-->
   {{ range .Site.Menus.dashboard -}}
     <h3>{{ .Name }}</h3>
     {{ if .HasChildren -}}
@@ -31,7 +45,14 @@
       {{ range .Children -}}
         {{- $active := or ($currentPage.IsMenuCurrent "dashboard" .) ($currentPage.HasMenuCurrent "dashboard" .) -}}
         {{- $active = or $active (eq $currentPage.Section .Identifier) -}}
-        <li><a class="docs-link{{ if $active }} active{{ end }}" href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+        <li>
+          <a class="docs-link{{ if $active }} active{{ end }}" href="{{ .URL | relURL }}">
+            {{ .Title }}
+            {{ if isset .Page.Params "status" }}
+            <span class="dashboard-status dashboard-status-{{ .Page.Params.status}}">{{ .Page.Params.status }}</span>
+          {{ end }}
+          </a>
+        </li>
       {{ end -}}
     </ul>
     {{ end -}}

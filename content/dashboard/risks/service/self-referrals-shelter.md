@@ -1,16 +1,14 @@
 ---
-title: "Adults Trained in Child Protection"
-description: "Quarterly change in adults trained child abuse prevention."
-lead: ""
+title: "Self-Referrals to Emergency Shelter"
+description: "Quarterly total change in at-risk youth accessing shelter."
 date: 2020-11-12T13:26:54+01:00
-lastmod: 2020-11-12T13:26:54+01:00
 draft: false
 menu:
   dashboard:
-    parent: protective
+    parent: risks
 weight: 100
-status: red
 toc: true
+status: red
 plot:
   unit: "%"
   dates:
@@ -30,3 +28,5 @@ plot:
 ## Data
 
 {{< plot >}}
+
+TODO - add other info

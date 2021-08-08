@@ -6,7 +6,7 @@ date: 2020-10-06T08:48:23+00:00
 lastmod: 2020-10-06T08:48:23+00:00
 draft: false
 images: []
-layout: dashboard
+toc: false
 ---
 
 TODO. We could add a description for child protective factors here if we wanted.
