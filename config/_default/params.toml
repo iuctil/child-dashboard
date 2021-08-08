@@ -1,10 +1,13 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "TLA"
+title = "Child Dashboard"
 titleSeparator = "-"
-titleAddition = "TiDE Learning Accelerator"
-description = "This is the online home of the Technology in Disaster Environments (TiDE) Learning Accelerator (TLA)"
+titleAddition = "Elkhart County"
+description = "Child Dashboard Elkhart County, In"
+address = "330 Lakeview Drive<br>Goshen, IN 46527"
+
+siteLogo = "logo.jpg"
 
 ## Open Graph
 images = ["doks.png"]
@@ -50,15 +53,15 @@ portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
 
 # Footer
-footer = "Powered by <a href=\"https://ctil.iu.edu/\">Crisis Technologies Innovation Lab</a> at <a href=\"https://iu.edu/\">Indiana University</a>"
-copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
+footer = "shouldn't be used"
+copyRight = "Produced by <a href='https://thesourceelkhartcounty.org/' target='_blank'>The SOURCE</a>"
 
 # Alert
 alert = false
 alertText = "Like Doks? <a class=\"alert-link\" href=\"https://github.com/h-enk/doks/stargazers\">Star on GitHub</a>. Thanks!</a>"
 
 # Edit Page
-docsRepo = "https://github.com/iuctil/tla"
+docsRepo = "https://github.com/iuctil/child-dashboard"
 editPage = false
 
 [options]

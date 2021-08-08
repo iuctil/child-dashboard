@@ -1,40 +1,12 @@
-[[docs]]
-  name = "TLA"
-  weight = 10
-  identifier = "prologue"
-  url = "/docs/prologue/"
-
-[[docs]]
-  name = "TPS"
-  weight = 60
-  identifier = "tps"
-  url = "/docs/tps/"
-
-[[docs]]
-  name = "BPLP"
-  weight = 70
-  identifier = "bplp"
-  url = "/docs/bplp/"
-
-[[docs]]
-  name = "Misc"
-  weight = 80
-  identifier = "misc"
-  url = "/docs/misc/"
 
 [[main]]
-  name = "Docs"
-  url = "/docs/prologue/introduction/"
+  name = "Home"
+  url = "/home/about/history"
   weight = 10
 
 [[main]]
-  name = "Discussion"
-  url = "https://github.com/iuctil/tla/discussions"
-  weight = 18
-
-[[main]]
-  name = "Blog"
-  url = "/blog/internal"
+  name = "Dashboard"
+  url = "/dashboard/"
   weight = 20
 
 
@@ -51,7 +23,37 @@
   post = "v0.1.0"
   weight = 20
 
-# [[footer]]
-#   name = "Privacy"
-#   url = "/privacy-policy/"
-#   weight = 10
+
+[[footer]]
+  name = "Dashboard"
+  url = "/dashboard/"
+  weight = 10
+
+[[footer]]
+  name = "Partners"
+  url = "/home/partners/"
+  weight = 20
+
+[[footer]]
+  name = "Contact"
+  url = "/home/contact/"
+  weight = 30
+
+[[footerstories]]
+  name = "WNIT: Dashboard Connects Community Leaders to Galvanize Change"
+  url = "https://www.wnit.org/educationcounts/s/elkhart-county-child-dashboard.html?fbclid=IwAR2eTJ-jBJNtMpg3cf6gqW4Oub6qgBkIQOjpEWftUy_wkgCn8cBryF8LzuU"
+  weight = 10
+
+[[footerstories]]
+  name = "WVPE: Elkhart County Institutions Share Data to Improve Child Wellbeing"
+  url = "https://www.wvpe.org/post/elkhart-county-institutions-share-data-improve-child-wellbeing"
+  weight = 20
+
+[[footerstories]]
+  name = "Introducing: The Dashboard Team"
+  url = "https://www.youtube.com/watch?v=E1_ts4XW3wc"
+  weight = 30
+
+
+
+

@@ -1,0 +1,18 @@
+<div id="mainplot"/>
+<script>
+  Plotly.newPlot(  document.getElementById('mainplot'),
+  [{
+    x: {{ $.Page.Params.plot.dates }},
+    y: {{ $.Page.Params.plot.values }},
+    mode: 'lines+markers+text',
+    text: {{ $.Page.Params.plot.values }},
+    textposition: 'top',
+    type: 'scatter',
+  }], {
+    margin: { t: 0, b:20 },
+    showlegend: false,
+    yaxis: {
+      rangemode: 'tozero',
+    }
+  });
+</script>

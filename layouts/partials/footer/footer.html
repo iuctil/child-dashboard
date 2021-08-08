@@ -1,15 +1,32 @@
-<footer class="footer text-muted">
+<footer class="footer">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 order-last order-lg-first">
-        <ul class="list-inline">
-          <li class="list-inline-item">{{ .Site.Params.footer | safeHTML }}</li>
+      <div class="col-lg-6">
+        <h5>
+          {{ .Site.Params.titleAddition | safeHTML }}<br>
+          {{ .Site.Params.title | safeHTML }}
+        </h5>
+        <p>{{ .Site.Params.address | safeHTML }}</p>
+        <p style="opacity: 0.6;">{{ .Site.Params.copyRight | safeHTML }}</p>
+
+      </div>
+      <div class="col-lg-3">
+        <h5>
+          Contents
+        </h5>
+        <ul class="plain">
+          {{ range .Site.Menus.footer -}}
+            <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+          {{ end -}}
         </ul>
       </div>
-      <div class="col-lg-8 order-first order-lg-last text-lg-end">
-        <ul class="list-inline">
-          {{ range .Site.Menus.footer -}}
-            <li class="list-inline-item"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+      <div class="col-lg-6">
+        <h5>
+          Stories
+        </h5>
+        <ul>
+          {{ range .Site.Menus.footerstories -}}
+            <li><a href="{{ .URL | relURL }}" target="_blank">{{ .Name }}</a></li>
           {{ end -}}
         </ul>
       </div>

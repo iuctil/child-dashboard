@@ -1,0 +1,11 @@
+<div class="cards">
+  {{ range where $.Site.RegularPages "File.Dir" .Params.path }}
+    <a href="{{ .RelPermalink }}"><div class="card card-status-{{ .Params.status}}">
+      <span class="card-title">{{ .Title }}</span>
+      <span class="card-desc">{{ .Description }}</span>
+    </div></a>
+  {{ end }}
+</div>
+
+
+

@@ -1,0 +1,176 @@
+h1 {
+  font-size: 190%;
+}
+
+h2 {
+  font-size: 150%;
+}
+
+h3 {
+  font-size: 140%;
+}
+
+h4 {
+  font-size: 130%;
+}
+
+h5 {
+  font-size: 120%;
+}
+
+.child-banner {
+  background-color: #333;
+  color: white;
+
+  width: 99.4vw; /*can't set it to 100vw - chrome creates vertical scrollbar..*/
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+
+  padding-top: 50px;
+  margin-top: -50px;
+  padding-bottom: 50px;
+
+  h1 {
+    text-transform: uppercase;
+  }
+}
+
+.btn {
+  text-transform: uppercase;
+}
+.navbar, .btn, nav {
+  font-family: $headings-font-family;
+}
+.btn {
+  font-weight: bold;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+}
+
+.footer {
+  background-color: $primary;
+  color: white;
+  padding: 70px 0;
+  padding-top: 40px;
+
+  h5 {
+    margin-top: 30px;
+    text-transform: uppercase;
+  }
+  ul.plain {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  a, a:hover {
+    color: white;
+  }
+}
+
+.cards {
+  .card {
+    display: inline-block;
+    position: relative;
+
+    width: 200px;
+    min-height: 80px;
+
+    margin-right: 10px;
+    scroll-margin-bottom: 10px;
+    padding: 5px 10px;
+
+    box-shadow: 0 0 6px #0002;
+    text-align: center;
+    border-radius: 8px;
+
+    border-left: 5px solid #6c757d;
+    color: #6c757d;
+    transition: background-color, transform 0.3s;
+
+    .card-title,
+    .card-desc {
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      height: 100%;
+
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 10px 5px;
+
+      transition: opacity 0.3s;
+    }
+    .card-title {
+      font-family: $headings-font-family;
+    }
+    .card-desc {
+      font-size: 70%;
+      opacity: 0;
+      overflow: hidden;
+    }
+
+    &.card-status-red {
+      border-left: 5px solid #bd2130;
+      color: #bd2130;
+    }
+    &.card-status-green {
+      border-left: 5px solid #28a745;
+      color: #28a745;
+    }
+    &.card-status-blue {
+      border-left: 5px solid #007bff;
+      color: #007bff;
+    }
+    &.card-status-yellow {
+      border-left: 5px solid #ffc107;
+      color: #ffc107;
+    }
+
+  }
+
+  .card:hover {
+
+    transform: scale(1.25);
+    z-index: 1;
+
+    .card-title {
+      opacity: 0;
+    }
+    .card-desc {
+      opacity: 1;
+    }
+  }
+}
+
+table {
+  background-color: #ddd;
+
+  thead {
+    background-color: #aaa;
+    color: white;
+    font-family: $headings-font-family;
+    font-weight: bold;
+  }
+
+  th {
+    border: none;
+  }
+  td {
+    border-color: #fff5;
+  }
+  td:first-child {
+    font-family: $headings-font-family;
+    font-weight: bold;
+    background-color: $primary;
+    color: white;
+  }
+}
