@@ -9,6 +9,8 @@ images: []
 toc: false
 ---
 
+{{< cardslegend >}}
+
 TODO. We could add a description for child protective factors here if we wanted.
 
 ### Social Determinants Protective
@@ -27,4 +29,3 @@ TODO. We could add a description for child protective factors here if we wanted.
 
 {{< cards path="dashboard/protective/success/" >}}
 
-{{< cardslegend >}}
