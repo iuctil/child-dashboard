@@ -30,16 +30,6 @@
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
       {{ partial "main/headline-hash.html" .Content }}
 
-      <br>
-      <div class="legend">
-        <div style="float: right">
-          <span class="dashboard-status dashboard-status-green">GOOD</span>&nbsp;
-          <span class="dashboard-status dashboard-status-gray">OK</span>&nbsp;
-          <span class="dashboard-status dashboard-status-red">BAD</span>&nbsp;
-        </div>
-        <h4>Legend</h4>
-      </div>
-
       {{ if .Site.Params.editPage -}}
         {{ partial "main/edit-page.html" . }}
       {{ end -}}

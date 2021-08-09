@@ -26,3 +26,5 @@ TODO. We could add a description for child protective factors here if we wanted.
 ### Signs of Success Protective
 
 {{< cards path="dashboard/protective/success/" >}}
+
+{{< cardslegend >}}

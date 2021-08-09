@@ -1,7 +1,7 @@
 ---
 title: "Community Resources Referred"
 description: "Percent change in successful referrals made by 211."
-lead: ""
+lead: "Total number of mothers demonstrating high risk in current quarter compared to previous quarter."
 date: 2020-11-12T13:26:54+01:00
 lastmod: 2020-11-12T13:26:54+01:00
 draft: false
@@ -30,3 +30,5 @@ plot:
 ## Data
 
 {{< plot >}}
+
+

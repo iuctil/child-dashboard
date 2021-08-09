@@ -47,9 +47,9 @@
         {{- $active = or $active (eq $currentPage.Section .Identifier) -}}
         <li>
           <a class="docs-link{{ if $active }} active{{ end }}" href="{{ .URL | relURL }}">
+            <span class="dashboard-status dashboard-status-{{ .Page.Params.status}} dashboard-bullet"></span>
             {{ .Title }}
             {{ if isset .Page.Params "status" }}
-            <span class="dashboard-status dashboard-status-{{ .Page.Params.status}}">{{ .Page.Params.status }}</span>
           {{ end }}
           </a>
         </li>

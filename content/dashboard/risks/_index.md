@@ -25,3 +25,5 @@ toc: false
 ### Consequences to Avoid
 
 {{< cards path="dashboard/risks/consequences/" >}}
+
+{{< cardslegend >}}

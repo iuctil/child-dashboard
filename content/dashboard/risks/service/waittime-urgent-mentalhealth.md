@@ -1,6 +1,7 @@
 ---
 title: "Wait Time for Urgent Child Mental Health Evaluation"
 description: "Average number of days wait time over the past month from calling to scheduling date of intake assessment."
+lead: "Average number of days wait time over the past month from calling to scheduling date of intake assessment at Oaklawn for urgent appointments (referral from hospital, school, DCS that requires immediate attention)"
 date: 2020-11-12T13:26:54+01:00
 draft: false
 menu:
@@ -25,8 +26,6 @@ plot:
     - 6.9
 ---
 
-Average number of days wait time over the past month from calling to scheduling date of intake assessment at Oaklawn for urgent appointments (referral from hospital, school, DCS that requires immediate attention)
-
 ## Data
 
 {{< plot >}}
@@ -34,6 +33,8 @@ Average number of days wait time over the past month from calling to scheduling 
 ## Source
 
 **Oaklawn**
+
+![Oaklawn](/images/oaklawn.png)
 
 Oaklawn is the leading provider of mental health and addiction services in Elkhart and St. Joseph counties. Our specialized services range from skills training and case management to outpatient therapy and inpatient care.
 

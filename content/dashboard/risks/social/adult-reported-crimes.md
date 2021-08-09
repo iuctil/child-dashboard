@@ -43,9 +43,9 @@ Number of reported of crimes that involve harm to others (type 1 crimes) - compi
 
 ## Source
 
-![citypolice](/images/citypolice.png)
-
 **Elkhart City Police and 911 Call Center**
+
+![citypolice](/images/citypolice.png)
 
 The Elkhart Police Department is committed to working in partnership with the community to improve the quality of life and provide a safe environment with honor, integrity, and justice.
 
