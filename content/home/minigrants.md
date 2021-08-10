@@ -12,5 +12,11 @@ menu:
 weight: 400
 toc: true
 ---
+## Coming Soon: Dashboard Mini Grants
+
+![minigrant](/images/minigrant.png)
+## CATALYZING COMMUNITY CHANGE
+
+Ready to leverage dashboard data to make change? Mini grants of up to $2,000 will be available for application. **Enter your email address below** to be the first to receive updates on the Child Dashboard mini-grants.
 
 {{< alert icon="👉" text="TO DO" />}}

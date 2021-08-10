@@ -1,6 +1,6 @@
 ---
-title: "Dashboard Data title"
-description: "Dashboard Data - desc"
+title: "Dashboard Data"
+description: "Dashboard Data"
 lead: "Dashboard Data - lead"
 date: 2020-11-12T13:26:54+01:00
 lastmod: 2020-11-12T13:26:54+01:00
@@ -27,7 +27,7 @@ Dashboard indicators must meet the following **three criteria**:
 
 {{< youtube 0eckdbuFm_U >}}
 
-## Dashboard Data
+## Data Providers
 
 You will see **two types of indicators** on the dashboard: **publicly available data** (such as unemployment rate) and **local partner data** that comes from an Elkhart County organization that is willing to regularly share a specific data point.
 
@@ -37,3 +37,24 @@ Partners providing local data are selected with the following **criteria** in mi
 1. Have a good reputation and are respected by peer and partner organizations
 1. Have given input in an iterative process to determine what data they might provide that would meet the indicator criteria
 
+{{<button url="home/partners" title="Our Partners">}}
+
+## Dashboard Organization
+
+The child dashboard looks at indicators for child wellbeing through **two lenses: risk factors** and **protective factors**. Each of these lenses has its own dashboard—one focused on risk indicators and one focused on protective indicators. Each dashboard contains four columns each representing a different step on the pathway from upstream warning signs and social determinants all the way through to direct outcomes that we are either trying to avoid or encourage.
+
+The goal of organizing data indicators this way is to allow the dashboard user to **visualize a progressive logical relationship between groups of data points**, both negative, signs of risks and positive, protective factors. When we see a whole group of indicators trending in the same way, it can send a strong message about what is happening in the lives of families in our community. We hope that this logical progression allows dashboard users to see opportunities for interventions and collective community action at each step in order to avoid further escalation of problematic trends and/or to encourage more protective activities.
+
+{{<button url="/dashboard" title="View The Dashboard">}}
+
+## What the color mean
+
+The dashboard uses a three-color system to give dashboard viewers a sense of whether the indicator is trending in a desirable or undesirable direction.
+
+* **Green:** trend is moving in a desirable direction compared to the prior period
+* **Grey:** neutral, no significant change or non-categorizable
+* **Red:** trend is moving in an undesirable direction compared to the prior period
+
+## Date updates
+
+The child dashboard will officially launch in September 2021 and will be updated with available data every quarter. These quarterly updates will be sent to collaborating partners and discussed in quarterly in-person collaboration meetings. **If you have ideas for additions, changes or stories connected to the dashboard data,** The SOURCE is managing the dashboard and can be reached at thesource@oaklawn.org. You can also contact us by visiting our [contact page](/home/contact)!

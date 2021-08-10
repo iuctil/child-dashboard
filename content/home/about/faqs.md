@@ -1,6 +1,6 @@
 ---
-title: "Frequently Asked Questions"
-description: ""
+title: "FAQ"
+description: "Frequently Asked Questions"
 lead: ""
 date: 2020-11-12T13:26:54+01:00
 lastmod: 2020-11-12T13:26:54+01:00
@@ -50,3 +50,12 @@ The dashboard allows Elkhart County decision makers and  leaders to have regular
 ## HOW OFTEN IS THE DASHBOARD UPDATED?
 
 The Child Dashboard will officially launch September 2021 and will be updated with available data every quarter.
+
+# Read More
+
+Download our full FAQ sheet PDF to learn more.
+
+{{<button url="/docx/ElkhartCountyChildDashboardFAQsFINAL.docx" title="Full FAQ Sheet">}}
+
+{{<button url="/pdf/FlyerChildDashboard.pdf" title="Infographic">}}
+

@@ -11,8 +11,6 @@ toc: false
 
 {{< cardslegend >}}
 
-TODO. We could add a description for child protective factors here if we wanted.
-
 ### Social Determinants Protective
 
 {{< cards path="dashboard/protective/social/" >}}

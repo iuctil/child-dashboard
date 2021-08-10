@@ -18,3 +18,15 @@ toc: true
 Elkhart County is home to three cities, five towns, and over 205,000 residents. Situated along the Michigan border in northernmost Indiana, the County is the sixth largest by population in the state. Founded in 1830, Elkhart County is named from language used by the original inhabitants of the area - the Potawatomi. In the county’s nearly 200 year history, a uniquely multiethnic community of myriad nationalities and faith traditions has called Elkhart County “home.” Today, the county is known for its historic parks, booming manufacturing industries, and annual cultural events.
 
 **Read on to learn more about our Elkhart County!**
+
+![elkhart1](/images/elkhart1.png)
+
+{{< alert icon="👆" text="Convert this to HTML" />}}
+
+![elkhart2](/images/elkhart2.png)
+
+{{< alert icon="👆" text="Convert this to plotly graph" />}}
+
+![elkhart3](/images/elkhart3.png)
+
+{{< alert icon="👆" text="Convert this to HTML" />}}

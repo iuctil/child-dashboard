@@ -10,6 +10,8 @@ layout: dashboard
 toc: false
 ---
 
+{{< cardslegend >}}
+
 ### Social Determinants Risks
 
 {{< cards path="dashboard/risks/social/" >}}
@@ -26,4 +28,3 @@ toc: false
 
 {{< cards path="dashboard/risks/consequences/" >}}
 
-{{< cardslegend >}}
